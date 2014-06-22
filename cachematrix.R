@@ -39,6 +39,6 @@ cacheSolve <- function(x = matrix(), ...) {
     m <- solve(matrix, ...)
     ##pass inversed matrix to cache
     x$setmatrix(m)
-    ##output the results of inversion
+    ##output inversion results
     m
 }
